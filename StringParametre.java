@@ -30,7 +30,7 @@ public static int harfSayisi(String s){
     return sayacHarf;
 }
 public static int kelimeSayisi(String s){
-    int sayacKelime=1;//
+    int sayacKelime=1;// bir cümlede boşluk sayısı kelime sayısından 1 eksiktir.
      s=s.trim();
         for(int i=0;i<s.length();i++){
             if(s.charAt(i)==' '){
